@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/IdentityService
+    username: root
+    password: sayantan
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: eW91ci1zdXBlci1zZWNyZXQta2V5LXRoYXQtaXMtbG9uZy1lbm91Z2gtMzJjaGFycw==
