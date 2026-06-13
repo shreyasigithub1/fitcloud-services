@@ -1,0 +1,44 @@
+2026-05-31 14:37:37 [main] INFO 
+                c.f.m.MemberServiceApplication - Starting MemberServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-05-31 14:37:37 [main] INFO 
+                c.f.m.MemberServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-31 14:37:41 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2026-05-31 14:37:41 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-31 14:37:41 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-31 14:37:43 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-31 14:37:43 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@19c1f6f4
+2026-05-31 14:37:43 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-31 14:37:46 [main] WARN 
+                o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-31 14:37:47 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2026-05-31 14:37:47 [main] INFO 
+                c.f.m.MemberServiceApplication - Started MemberServiceApplication in 11.09 seconds (process running for 12.747)
+2026-05-31 16:17:44 [main] INFO 
+                c.f.m.MemberServiceApplication - Starting MemberServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-05-31 16:17:44 [main] INFO 
+                c.f.m.MemberServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-31 16:17:48 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2026-05-31 16:17:48 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-31 16:17:48 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-31 16:17:50 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-31 16:17:51 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f17dd06
+2026-05-31 16:17:51 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-31 16:17:54 [main] WARN 
+                o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-31 16:17:54 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2026-05-31 16:17:54 [main] INFO 
+                c.f.m.MemberServiceApplication - Started MemberServiceApplication in 335.269 seconds (process running for 13.167)

@@ -1,0 +1,341 @@
+2026-06-09 04:53:05 [main] INFO 
+                i.I.S.IdentityServiceApplication - Starting IdentityServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 04:53:05 [main] INFO 
+                i.I.S.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 04:53:08 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-06-09 04:53:08 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 04:53:08 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-09 04:53:08 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-09 04:53:09 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 04:53:09 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c9cafa5
+2026-06-09 04:53:09 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 04:53:12 [main] WARN 
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 04:53:12 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-06-09 04:53:13 [main] INFO 
+                i.I.S.IdentityServiceApplication - Started IdentityServiceApplication in 8.148 seconds (process running for 9.014)
+2026-06-09 05:33:48 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 05:33:48 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 05:34:31 [main] INFO 
+                i.I.S.IdentityServiceApplication - Starting IdentityServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 05:34:31 [main] INFO 
+                i.I.S.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 05:34:33 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-06-09 05:34:33 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 05:34:33 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-09 05:34:33 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-09 05:34:34 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 05:34:34 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d221b20
+2026-06-09 05:34:34 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 05:34:36 [main] WARN 
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 05:34:37 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-06-09 05:34:37 [main] INFO 
+                i.I.S.IdentityServiceApplication - Started IdentityServiceApplication in 8.112 seconds (process running for 8.789)
+2026-06-09 05:37:28 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 05:37:28 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 05:37:32 [main] INFO 
+                i.I.S.IdentityServiceApplication - Starting IdentityServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 05:37:32 [main] INFO 
+                i.I.S.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 05:37:35 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-06-09 05:37:35 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 05:37:35 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-09 05:37:35 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-09 05:37:36 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 05:37:37 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@76b305e1
+2026-06-09 05:37:37 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 05:37:39 [main] WARN 
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 05:37:41 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-06-09 05:37:41 [main] INFO 
+                i.I.S.IdentityServiceApplication - Started IdentityServiceApplication in 9.867 seconds (process running for 11.148)
+2026-06-09 07:04:27 [http-nio-8081-exec-1] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-09 07:13:27 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 07:13:27 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 07:13:32 [main] INFO 
+                i.I.S.IdentityServiceApplication - Starting IdentityServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 07:13:32 [main] INFO 
+                i.I.S.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 07:13:35 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-06-09 07:13:35 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 07:13:35 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-09 07:13:35 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-09 07:13:36 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 07:13:36 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@521ba38f
+2026-06-09 07:13:36 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 07:13:38 [main] WARN 
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 07:13:39 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-06-09 07:13:39 [main] INFO 
+                i.I.S.IdentityServiceApplication - Started IdentityServiceApplication in 8.487 seconds (process running for 9.529)
+2026-06-09 09:12:56 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 09:12:56 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 09:14:34 [main] INFO 
+                i.I.S.IdentityServiceApplication - Starting IdentityServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 09:14:34 [main] INFO 
+                i.I.S.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 09:14:37 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-06-09 09:14:37 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 09:14:37 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-09 09:14:37 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-09 09:14:38 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 09:14:39 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7adae08e
+2026-06-09 09:14:39 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 09:14:40 [main] WARN 
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 09:14:41 [main] WARN 
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #5 of URL [jar:nested:/app/app.jar/!BOOT-INF/classes/!/data.sql]: INSERT INTO users (full_name, user_name, email, password, phone_number, status,type, role_id) VALUES ('Platform Admin', 'admin', 'admin@fitcloud.com', '$2a$10$GTE5JC8qoTfJ4vBfSBQK3ekBIEaGtSz4wd5Y6gx7T89ucOpiR50MS, '9999999999', 'ACTIVE', 'ADMIN',(SELECT id FROM role WHERE role_name = 'ROLE_ADMIN'))
+ON CONFLICT (email) DO NOTHING;
+2026-06-09 09:14:41 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 09:14:41 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 09:14:41 [main] INFO 
+                o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-06-09 09:14:41 [main] ERROR
+                o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #5 of URL [jar:nested:/app/app.jar/!BOOT-INF/classes/!/data.sql]: INSERT INTO users (full_name, user_name, email, password, phone_number, status,type, role_id) VALUES ('Platform Admin', 'admin', 'admin@fitcloud.com', '$2a$10$GTE5JC8qoTfJ4vBfSBQK3ekBIEaGtSz4wd5Y6gx7T89ucOpiR50MS, '9999999999', 'ACTIVE', 'ADMIN',(SELECT id FROM role WHERE role_name = 'ROLE_ADMIN'))
+ON CONFLICT (email) DO NOTHING;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at identity_service.Identity.Service.IdentityServiceApplication.main(IdentityServiceApplication.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53)
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58)
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #5 of URL [jar:nested:/app/app.jar/!BOOT-INF/classes/!/data.sql]: INSERT INTO users (full_name, user_name, email, password, phone_number, status,type, role_id) VALUES ('Platform Admin', 'admin', 'admin@fitcloud.com', '$2a$10$GTE5JC8qoTfJ4vBfSBQK3ekBIEaGtSz4wd5Y6gx7T89ucOpiR50MS, '9999999999', 'ACTIVE', 'ADMIN',(SELECT id FROM role WHERE role_name = 'ROLE_ADMIN'))
+ON CONFLICT (email) DO NOTHING;
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54)
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:87)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:146)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:108)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:102)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:77)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 23 common frames omitted
+Caused by: org.postgresql.util.PSQLException: Unterminated string literal started at position 296 in SQL INSERT INTO users (full_name, user_name, email, password, phone_number, status,type, role_id) VALUES ('Platform Admin', 'admin', 'admin@fitcloud.com', '$2a$10$GTE5JC8qoTfJ4vBfSBQK3ekBIEaGtSz4wd5Y6gx7T89ucOpiR50MS, '9999999999', 'ACTIVE', 'ADMIN',(SELECT id FROM role WHERE role_name = 'ROLE_ADMIN'))
+ON CONFLICT (email) DO NOTHING;. Expected  char
+	at org.postgresql.core.Parser.checkParsePosition(Parser.java:1443)
+	at org.postgresql.core.Parser.parseSql(Parser.java:1350)
+	at org.postgresql.core.Parser.replaceProcessing(Parser.java:1294)
+	at org.postgresql.core.CachedQueryCreateAction.create(CachedQueryCreateAction.java:43)
+	at org.postgresql.core.QueryExecutorBase.createQueryByKey(QueryExecutorBase.java:369)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:313)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	... 33 common frames omitted
+2026-06-09 09:18:53 [main] INFO 
+                i.I.S.IdentityServiceApplication - Starting IdentityServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 09:18:53 [main] INFO 
+                i.I.S.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 09:18:56 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-06-09 09:18:56 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 09:18:56 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-09 09:18:56 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-09 09:18:57 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 09:18:57 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@41d20f06
+2026-06-09 09:18:57 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 09:18:59 [main] WARN 
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 09:19:00 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-06-09 09:19:00 [main] INFO 
+                i.I.S.IdentityServiceApplication - Started IdentityServiceApplication in 7.899 seconds (process running for 9.017)
+2026-06-09 09:24:10 [http-nio-8081-exec-1] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-09 14:53:14 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 14:53:14 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 14:53:16 [main] INFO 
+                i.I.S.IdentityServiceApplication - Starting IdentityServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 14:53:16 [main] INFO 
+                i.I.S.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 14:53:17 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-06-09 14:53:17 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 14:53:17 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-09 14:53:17 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-09 14:53:17 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 14:53:18 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@273aaab7
+2026-06-09 14:53:18 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 14:53:19 [main] WARN 
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 14:53:19 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-06-09 14:53:19 [main] INFO 
+                i.I.S.IdentityServiceApplication - Started IdentityServiceApplication in 3.757 seconds (process running for 4.478)
+2026-06-09 14:55:12 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 14:55:12 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 14:55:13 [main] INFO 
+                i.I.S.IdentityServiceApplication - Starting IdentityServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 14:55:13 [main] INFO 
+                i.I.S.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 14:55:14 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-06-09 14:55:14 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 14:55:14 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-09 14:55:14 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-09 14:55:14 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 14:55:14 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b1d19ff
+2026-06-09 14:55:14 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 14:55:15 [main] WARN 
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 14:55:16 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-06-09 14:55:16 [main] INFO 
+                i.I.S.IdentityServiceApplication - Started IdentityServiceApplication in 2.942 seconds (process running for 3.325)
+2026-06-09 14:57:16 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 14:57:16 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 14:57:18 [main] INFO 
+                i.I.S.IdentityServiceApplication - Starting IdentityServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 14:57:18 [main] INFO 
+                i.I.S.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 14:57:19 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-06-09 14:57:19 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 14:57:19 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-09 14:57:19 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-09 14:57:20 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 14:57:20 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@efe49ab
+2026-06-09 14:57:20 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 14:57:21 [main] WARN 
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 14:57:21 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-06-09 14:57:21 [main] INFO 
+                i.I.S.IdentityServiceApplication - Started IdentityServiceApplication in 3.905 seconds (process running for 4.31)
+2026-06-09 15:25:21 [http-nio-8081-exec-1] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-09 15:29:03 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 15:29:03 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 15:29:05 [main] INFO 
+                i.I.S.IdentityServiceApplication - Starting IdentityServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 15:29:05 [main] INFO 
+                i.I.S.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 15:29:07 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-06-09 15:29:07 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 15:29:07 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-09 15:29:07 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-09 15:29:07 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 15:29:07 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@402d6012
+2026-06-09 15:29:07 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 15:29:08 [main] WARN 
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 15:29:09 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-06-09 15:29:09 [main] INFO 
+                i.I.S.IdentityServiceApplication - Started IdentityServiceApplication in 3.924 seconds (process running for 4.471)
+2026-06-09 15:31:58 [http-nio-8081-exec-1] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'

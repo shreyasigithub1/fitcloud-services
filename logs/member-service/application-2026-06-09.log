@@ -1,0 +1,152 @@
+2026-06-09 04:53:05 [main] INFO 
+                c.f.m.MemberServiceApplication - Starting MemberServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 04:53:05 [main] INFO 
+                c.f.m.MemberServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 04:53:08 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2026-06-09 04:53:08 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 04:53:08 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-09 04:53:10 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 04:53:10 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50d666a2
+2026-06-09 04:53:10 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 04:53:13 [main] WARN 
+                o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 04:53:14 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2026-06-09 04:53:14 [main] INFO 
+                c.f.m.MemberServiceApplication - Started MemberServiceApplication in 9.598 seconds (process running for 10.499)
+2026-06-09 05:33:48 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 05:33:48 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 05:34:31 [main] INFO 
+                c.f.m.MemberServiceApplication - Starting MemberServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 05:34:31 [main] INFO 
+                c.f.m.MemberServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 05:34:33 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2026-06-09 05:34:33 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 05:34:33 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-09 05:34:34 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 05:34:34 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@190bf8e4
+2026-06-09 05:34:34 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 05:34:37 [main] WARN 
+                o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 05:34:38 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2026-06-09 05:34:38 [main] INFO 
+                c.f.m.MemberServiceApplication - Started MemberServiceApplication in 7.957 seconds (process running for 9.373)
+2026-06-09 05:37:28 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 05:37:28 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 05:37:32 [main] INFO 
+                c.f.m.MemberServiceApplication - Starting MemberServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 05:37:32 [main] INFO 
+                c.f.m.MemberServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 05:37:35 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2026-06-09 05:37:35 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 05:37:35 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-09 05:37:37 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 05:37:37 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43090195
+2026-06-09 05:37:37 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 05:37:42 [main] WARN 
+                o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 05:37:42 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2026-06-09 05:37:42 [main] INFO 
+                c.f.m.MemberServiceApplication - Started MemberServiceApplication in 11.644 seconds (process running for 12.691)
+2026-06-09 07:13:27 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 07:13:27 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 07:13:32 [main] INFO 
+                c.f.m.MemberServiceApplication - Starting MemberServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 07:13:32 [main] INFO 
+                c.f.m.MemberServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 07:13:35 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2026-06-09 07:13:35 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 07:13:35 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-09 07:13:37 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 07:13:37 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ec98ccc
+2026-06-09 07:13:37 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 07:13:39 [main] WARN 
+                o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 07:13:40 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2026-06-09 07:13:40 [main] INFO 
+                c.f.m.MemberServiceApplication - Started MemberServiceApplication in 8.978 seconds (process running for 10.416)
+2026-06-09 09:12:56 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 09:12:56 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 09:14:35 [main] INFO 
+                c.f.m.MemberServiceApplication - Starting MemberServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 09:14:35 [main] INFO 
+                c.f.m.MemberServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 09:14:38 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2026-06-09 09:14:38 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 09:14:38 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-09 09:14:40 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 09:14:40 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1534bdc6
+2026-06-09 09:14:40 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 09:14:43 [main] WARN 
+                o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 09:14:43 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2026-06-09 09:14:43 [main] INFO 
+                c.f.m.MemberServiceApplication - Started MemberServiceApplication in 9.726 seconds (process running for 11.014)
+2026-06-09 09:18:49 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 09:18:49 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 09:18:53 [main] INFO 
+                c.f.m.MemberServiceApplication - Starting MemberServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-09 09:18:53 [main] INFO 
+                c.f.m.MemberServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 09:18:56 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2026-06-09 09:18:56 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 09:18:56 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-09 09:18:58 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 09:18:58 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ec98ccc
+2026-06-09 09:18:58 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 09:19:00 [main] WARN 
+                o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 09:19:01 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2026-06-09 09:19:01 [main] INFO 
+                c.f.m.MemberServiceApplication - Started MemberServiceApplication in 9.016 seconds (process running for 10.012)

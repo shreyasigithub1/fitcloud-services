@@ -23,15 +23,23 @@ public class GlobalExceptionHandler {
 
         return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);
     }
+
     @ExceptionHandler(UsernameNotFoundException.class)
     public ResponseEntity<String> handleUserNotFound(UsernameNotFoundException ex) {
         // This returns a simple string, but you could return a Map or DTO too
         return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
     }
+
     // In GlobalExceptionHandler
     @ExceptionHandler(BadCredentialsException.class)
     public ResponseEntity<String> handleBadCredentials(BadCredentialsException ex) {
         return new ResponseEntity<>("Invalid username or password", HttpStatus.UNAUTHORIZED);
     }
+
+    @ExceptionHandler(CustomException.class)
+    public ResponseEntity<String> handleCustomExceptions(CustomException ex) {
+        return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+
 
 }

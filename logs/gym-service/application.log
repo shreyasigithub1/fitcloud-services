@@ -1,0 +1,24 @@
+2026-06-13 10:15:46 [main] INFO 
+                c.f.gymservice.GymServiceApplication - Starting GymServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-13 10:15:46 [main] INFO 
+                c.f.gymservice.GymServiceApplication - The following 1 profile is active: "docker"
+2026-06-13 10:15:49 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2026-06-13 10:15:49 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-13 10:15:49 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-13 10:15:49 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-13 10:15:51 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-13 10:15:51 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@483b7dc4
+2026-06-13 10:15:51 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-13 10:15:53 [main] WARN 
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-13 10:15:54 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2026-06-13 10:15:54 [main] INFO 
+                c.f.gymservice.GymServiceApplication - Started GymServiceApplication in 9.315 seconds (process running for 10.374)

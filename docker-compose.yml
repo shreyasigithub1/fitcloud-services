@@ -1,0 +1,162 @@
+version: '3.8'
+
+services:
+
+  # ── DATABASES ──────────────────────────────────────
+
+  identity-db:
+    image: postgres:15
+    container_name: identity-db
+    environment:
+      POSTGRES_DB: identity_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: sayantan
+    ports:
+      - "5435:5432"
+    volumes:
+      - identity-db-data:/var/lib/postgresql/data  # ← data volume
+    networks:
+      - fitcloud-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  gym-db:
+    image: postgres:15
+    container_name: gym-db
+    environment:
+      POSTGRES_DB: gym_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: sayantan
+    ports:
+      - "5433:5432"
+    volumes:
+      - gym-db-data:/var/lib/postgresql/data       # ← data volume
+    networks:
+      - fitcloud-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  member-db:
+    image: postgres:15
+    container_name: member-db
+    environment:
+      POSTGRES_DB: member_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: sayantan
+    ports:
+      - "5434:5432"
+    volumes:
+      - member-db-data:/var/lib/postgresql/data    # ← data volume
+    networks:
+      - fitcloud-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── SERVICES ───────────────────────────────────────
+
+  identity-service:
+    build:
+      context: ./identity-service
+      dockerfile: Dockerfile
+    container_name: identity-service
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./logs/identity-service:/app/logs          # ← logs volume
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      DB_URL: jdbc:postgresql://identity-db:5432/identity_db
+      DB_USERNAME: postgres
+      DB_PASSWORD: sayantan
+      JWT_SECRET: eW91ci1zdXBlci1zZWNyZXQta2V5LXRoYXQtaXMtbG9uZy1lbm91Z2gtMzJjaGFycw==
+    depends_on:
+      identity-db:
+        condition: service_healthy
+    networks:
+      - fitcloud-network
+
+  gym-service:
+    build:
+      context: ./gym-service
+      dockerfile: Dockerfile
+    container_name: gym-service
+    ports:
+      - "8082:8082"
+    volumes:
+      - ./logs/gym-service:/app/logs               # ← logs volume
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      DB_URL: jdbc:postgresql://gym-db:5432/gym_db
+      DB_USERNAME: postgres
+      DB_PASSWORD: sayantan
+      JWT_SECRET: eW91ci1zdXBlci1zZWNyZXQta2V5LXRoYXQtaXMtbG9uZy1lbm91Z2gtMzJjaGFycw==
+    depends_on:
+      gym-db:
+        condition: service_healthy
+    networks:
+      - fitcloud-network
+
+  member-service:
+    build:
+      context: ./member-service
+      dockerfile: Dockerfile
+    container_name: member-service
+    ports:
+      - "8083:8083"
+    volumes:
+      - ./logs/member-service:/app/logs            # ← logs volume
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      DB_URL: jdbc:postgresql://member-db:5432/member_db
+      DB_USERNAME: postgres
+      DB_PASSWORD: sayantan
+      JWT_SECRET: eW91ci1zdXBlci1zZWNyZXQta2V5LXRoQXQtaXMtbG9uZy1lbm91Z2gtMzJjaGFycw==
+    depends_on:
+      member-db:
+        condition: service_healthy
+    networks:
+      - fitcloud-network
+
+  api-gateway:
+    build:
+      context: ./api-gateway
+      dockerfile: Dockerfile
+    container_name: api-gateway
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./logs/api-gateway:/app/logs               # ← logs volume
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      IDENTITY_SERVICE_URL: http://identity-service:8081
+      GYM_SERVICE_URL: http://gym-service:8082
+      MEMBER_SERVICE_URL: http://member-service:8083
+      JWT_SECRET: eW91ci1zdXBlci1zZWNyZXQta2V5LXRoQXQtaXMtbG9uZy1lbm91Z2gtMzJjaGFycw==
+    depends_on:
+      - identity-service
+      - gym-service
+      - member-service
+    networks:
+      - fitcloud-network
+
+# ── VOLUMES ──────────────────────────────────────────
+volumes:
+  identity-db-data:      # ← named volumes for DB data
+  gym-db-data:
+  member-db-data:
+  # NO bind mounts here
+  # bind mounts go inside each service
+
+# ── NETWORK ──────────────────────────────────────────
+networks:
+  fitcloud-network:
+    driver: bridge

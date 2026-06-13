@@ -1,0 +1,86 @@
+2026-06-13 10:15:46 [main] INFO 
+                c.f.a.ApiGatewayApplication - Starting ApiGatewayApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-13 10:15:46 [main] INFO 
+                c.f.a.ApiGatewayApplication - The following 1 profile is active: "docker"
+2026-06-13 10:15:48 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-13 10:15:48 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-13 10:15:48 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-13 10:15:48 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-13 10:15:50 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-13 10:15:50 [main] INFO 
+                c.f.a.ApiGatewayApplication - Started ApiGatewayApplication in 5.299 seconds (process running for 6.286)
+2026-06-13 10:15:50 [main] WARN 
+                o.s.c.g.s.m.c.GatewayServerWebMvcPropertiesMigrationListener - 
+The use of configuration keys that have been renamed was found in the environment:
+
+Property source 'Config resource 'class path resource [application.yml]' via location 'optional:classpath:/'':
+	Key: spring.cloud.gateway.mvc.routes[0].id
+		Line: 15
+		Replacement: spring.cloud.gateway.server.webmvc.routes[0].id
+	Key: spring.cloud.gateway.mvc.routes[0].uri
+		Line: 16
+		Replacement: spring.cloud.gateway.server.webmvc.routes[0].uri
+	Key: spring.cloud.gateway.mvc.routes[0].predicates[0]
+		Line: 18
+		Replacement: spring.cloud.gateway.server.webmvc.routes[0].predicates[0]
+	Key: spring.cloud.gateway.mvc.routes[1].id
+		Line: 20
+		Replacement: spring.cloud.gateway.server.webmvc.routes[1].id
+	Key: spring.cloud.gateway.mvc.routes[1].uri
+		Line: 21
+		Replacement: spring.cloud.gateway.server.webmvc.routes[1].uri
+	Key: spring.cloud.gateway.mvc.routes[1].predicates[0]
+		Line: 23
+		Replacement: spring.cloud.gateway.server.webmvc.routes[1].predicates[0]
+	Key: spring.cloud.gateway.mvc.routes[2].id
+		Line: 25
+		Replacement: spring.cloud.gateway.server.webmvc.routes[2].id
+	Key: spring.cloud.gateway.mvc.routes[2].uri
+		Line: 26
+		Replacement: spring.cloud.gateway.server.webmvc.routes[2].uri
+	Key: spring.cloud.gateway.mvc.routes[2].predicates[0]
+		Line: 28
+		Replacement: spring.cloud.gateway.server.webmvc.routes[2].predicates[0]
+	Key: spring.cloud.gateway.mvc.routes[3].id
+		Line: 30
+		Replacement: spring.cloud.gateway.server.webmvc.routes[3].id
+	Key: spring.cloud.gateway.mvc.routes[3].uri
+		Line: 31
+		Replacement: spring.cloud.gateway.server.webmvc.routes[3].uri
+	Key: spring.cloud.gateway.mvc.routes[3].predicates[0]
+		Line: 33
+		Replacement: spring.cloud.gateway.server.webmvc.routes[3].predicates[0]
+	Key: spring.cloud.gateway.mvc.routes[4].id
+		Line: 35
+		Replacement: spring.cloud.gateway.server.webmvc.routes[4].id
+	Key: spring.cloud.gateway.mvc.routes[4].uri
+		Line: 36
+		Replacement: spring.cloud.gateway.server.webmvc.routes[4].uri
+	Key: spring.cloud.gateway.mvc.routes[4].predicates[0]
+		Line: 38
+		Replacement: spring.cloud.gateway.server.webmvc.routes[4].predicates[0]
+
+
+Each configuration key has been temporarily mapped to its replacement for your convenience. To silence this warning, please update your configuration to use the new keys.
+
+2026-06-13 10:42:14 [http-nio-8080-exec-1] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-13 10:43:01 [http-nio-8080-exec-2] INFO 
+                o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/admin/gym-owners/filter?Statuses=[%22ACTIVE%22,%22PENDING%22,%22REJECTED%22,%22SUSPENDED%22]&name=Shreyasi&userName=shreyasi_username&businessName=Fitzone&page=0&size%20=1 ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:477)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Unknown Source)

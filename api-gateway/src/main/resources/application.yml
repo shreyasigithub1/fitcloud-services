@@ -1,0 +1,38 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+    profiles:
+      active: local
+
+  cloud:
+    gateway:
+     mvc:
+      routes:
+
+        - id: auth-service
+          uri: http://identity-service:8081
+          predicates:
+            - Path=/auth/**
+
+        - id: identity-service-admin
+          uri: http://identity-service:8081
+          predicates:
+              - Path=/admin/**
+
+        - id: gym-service
+          uri: http://gym-service:8082
+          predicates:
+            - Path=/gyms/**
+
+        - id: gym-memberships
+          uri: http://gym-service:8082
+          predicates:
+              - Path=/memberships/**
+
+        - id: member-service
+          uri: http://member-service:8083
+          predicates:
+            - Path=/members/**

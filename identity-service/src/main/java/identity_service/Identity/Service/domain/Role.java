@@ -14,14 +14,10 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Role {
 
-    //ROLE_ADMIN->
-    //Can Create new Gyms, Delete Gyms, and view global stats.
-
-    //ROLE_GYM_OWNER->
-    //Can manage their specific Gym and add trainers.
-
-    //ROLE_MEMBER->
-    //Can only log their workouts and view their profile.
+    // ROLE_ADMIN          → seeded in DB manually
+    // ROLE_PENDING_OWNER  → gym owner just registered
+    // ROLE_GYM_OWNER      → approved by admin
+    // ROLE_MEMBER         → self registered member
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id

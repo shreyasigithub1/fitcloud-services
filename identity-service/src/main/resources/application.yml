@@ -1,14 +1,27 @@
+server:
+  port: 8081
+
 spring:
+  application:
+    name: identity-service
+  profiles:
+    active: local        # ← default for local dev; Docker will override this
+
   datasource:
-    url: jdbc:mysql://localhost:3306/IdentityService
-    username: root
-    password: sayantan
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+    defer-datasource-initialization: true
+
+  sql:
+    init:
+      mode: always
 
 jwt:
-  secret: eW91ci1zdXBlci1zZWNyZXQta2V5LXRoYXQtaXMtbG9uZy1lbm91Z2gtMzJjaGFycw==
+  secret: ${JWT_SECRET}

@@ -1,0 +1,64 @@
+2026-05-29 13:26:09 [main] INFO 
+                i.I.S.IdentityServiceApplication - Starting IdentityServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-05-29 13:26:09 [main] INFO 
+                i.I.S.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-29 13:26:13 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-29 13:26:13 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-29 13:26:13 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-05-29 13:26:13 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-29 13:26:14 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-29 13:26:14 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7adae08e
+2026-05-29 13:26:14 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-29 13:26:15 [main] WARN 
+                o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2026-05-29 13:26:15 [main] WARN 
+                o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk_iubw515ff0ugtm28p8g3myt0h" of relation "role" does not exist, skipping
+2026-05-29 13:26:15 [main] WARN 
+                o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2026-05-29 13:26:15 [main] WARN 
+                o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk_6dotkott2kjsp8vw4d0m25fb7" of relation "users" does not exist, skipping
+2026-05-29 13:26:15 [main] WARN 
+                o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2026-05-29 13:26:15 [main] WARN 
+                o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk_k8d0f2n7n88w1a16yhua64onx" of relation "users" does not exist, skipping
+2026-05-29 13:26:16 [main] WARN 
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-29 13:26:17 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-29 13:26:17 [main] INFO 
+                i.I.S.IdentityServiceApplication - Started IdentityServiceApplication in 8.604 seconds (process running for 9.698)
+2026-05-29 13:28:50 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-29 13:28:50 [SpringApplicationShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-29 13:31:37 [main] INFO 
+                i.I.S.IdentityServiceApplication - Starting IdentityServiceApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-05-29 13:31:37 [main] INFO 
+                i.I.S.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-29 13:31:39 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-29 13:31:39 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-29 13:31:39 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-05-29 13:31:39 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-29 13:31:40 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-29 13:31:41 [main] INFO 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79d4ff58
+2026-05-29 13:31:41 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-29 13:31:42 [main] WARN 
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-29 13:31:43 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-29 13:31:43 [main] INFO 
+                i.I.S.IdentityServiceApplication - Started IdentityServiceApplication in 7.782 seconds (process running for 8.782)

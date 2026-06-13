@@ -1,0 +1,32 @@
+2026-05-29 13:26:09 [main] INFO 
+                c.f.a.ApiGatewayApplication - Starting ApiGatewayApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-05-29 13:26:09 [main] INFO 
+                c.f.a.ApiGatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-29 13:26:12 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-29 13:26:12 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-29 13:26:12 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-29 13:26:12 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-29 13:26:14 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-29 13:26:15 [main] INFO 
+                c.f.a.ApiGatewayApplication - Started ApiGatewayApplication in 6.106 seconds (process running for 6.99)
+2026-05-29 13:31:37 [main] INFO 
+                c.f.a.ApiGatewayApplication - Starting ApiGatewayApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-05-29 13:31:37 [main] INFO 
+                c.f.a.ApiGatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-29 13:31:39 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-29 13:31:39 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-29 13:31:39 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-29 13:31:39 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-29 13:31:41 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-29 13:31:41 [main] INFO 
+                c.f.a.ApiGatewayApplication - Started ApiGatewayApplication in 5.276 seconds (process running for 6.266)

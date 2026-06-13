@@ -1,0 +1,70 @@
+2026-06-07 13:12:53 [main] INFO 
+                c.f.a.ApiGatewayApplication - Starting ApiGatewayApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-06-07 13:12:53 [main] INFO 
+                c.f.a.ApiGatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-07 13:12:55 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-07 13:12:55 [main] INFO 
+                o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-07 13:12:55 [main] INFO 
+                o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-07 13:12:55 [main] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-07 13:12:57 [main] INFO 
+                o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-07 13:12:57 [main] INFO 
+                c.f.a.ApiGatewayApplication - Started ApiGatewayApplication in 5.189 seconds (process running for 6.358)
+2026-06-07 13:12:57 [main] WARN 
+                o.s.c.g.s.m.c.GatewayServerWebMvcPropertiesMigrationListener - 
+The use of configuration keys that have been renamed was found in the environment:
+
+Property source 'Config resource 'class path resource [application.yml]' via location 'optional:classpath:/'':
+	Key: spring.cloud.gateway.mvc.routes[0].id
+		Line: 10
+		Replacement: spring.cloud.gateway.server.webmvc.routes[0].id
+	Key: spring.cloud.gateway.mvc.routes[0].uri
+		Line: 11
+		Replacement: spring.cloud.gateway.server.webmvc.routes[0].uri
+	Key: spring.cloud.gateway.mvc.routes[0].predicates[0]
+		Line: 13
+		Replacement: spring.cloud.gateway.server.webmvc.routes[0].predicates[0]
+	Key: spring.cloud.gateway.mvc.routes[1].id
+		Line: 15
+		Replacement: spring.cloud.gateway.server.webmvc.routes[1].id
+	Key: spring.cloud.gateway.mvc.routes[1].uri
+		Line: 16
+		Replacement: spring.cloud.gateway.server.webmvc.routes[1].uri
+	Key: spring.cloud.gateway.mvc.routes[1].predicates[0]
+		Line: 18
+		Replacement: spring.cloud.gateway.server.webmvc.routes[1].predicates[0]
+	Key: spring.cloud.gateway.mvc.routes[2].id
+		Line: 20
+		Replacement: spring.cloud.gateway.server.webmvc.routes[2].id
+	Key: spring.cloud.gateway.mvc.routes[2].uri
+		Line: 21
+		Replacement: spring.cloud.gateway.server.webmvc.routes[2].uri
+	Key: spring.cloud.gateway.mvc.routes[2].predicates[0]
+		Line: 23
+		Replacement: spring.cloud.gateway.server.webmvc.routes[2].predicates[0]
+	Key: spring.cloud.gateway.mvc.routes[3].id
+		Line: 25
+		Replacement: spring.cloud.gateway.server.webmvc.routes[3].id
+	Key: spring.cloud.gateway.mvc.routes[3].uri
+		Line: 26
+		Replacement: spring.cloud.gateway.server.webmvc.routes[3].uri
+	Key: spring.cloud.gateway.mvc.routes[3].predicates[0]
+		Line: 28
+		Replacement: spring.cloud.gateway.server.webmvc.routes[3].predicates[0]
+	Key: spring.cloud.gateway.mvc.routes[4].id
+		Line: 30
+		Replacement: spring.cloud.gateway.server.webmvc.routes[4].id
+	Key: spring.cloud.gateway.mvc.routes[4].uri
+		Line: 31
+		Replacement: spring.cloud.gateway.server.webmvc.routes[4].uri
+	Key: spring.cloud.gateway.mvc.routes[4].predicates[0]
+		Line: 33
+		Replacement: spring.cloud.gateway.server.webmvc.routes[4].predicates[0]
+
+
+Each configuration key has been temporarily mapped to its replacement for your convenience. To silence this warning, please update your configuration to use the new keys.
+

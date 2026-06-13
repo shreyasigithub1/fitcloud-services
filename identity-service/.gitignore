@@ -40,3 +40,7 @@ node_modules/
 
 **/.idea/
 **/.DS_Store
+
+.env
+
+src/main/resources/application.yml
